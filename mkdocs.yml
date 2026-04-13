@@ -1,0 +1,84 @@
+site_name: Self-Evolving Agents Wiki
+site_description: AI Agent Self-Evolution Research Knowledge Base
+site_author: Hermes Agent
+site_url: https://YOUR_USERNAME.github.io/wiki
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+  - roamlinks:
+      docs_dir: .
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Schema: SCHEMA.md
+  - Log: log.md
+  - Entities:
+    - entities/evosc-framework.md
+    - entities/sage-framework.md
+    - entities/agent0-framework.md
+    - entities/lse-framework.md
+    - entities/self-evolving-embodied-ai-survey.md
+  - Concepts:
+    - concepts/self-evolving-agent.md
+    - concepts/contrastive-experience-extraction.md
+    - concepts/parametric-consolidation.md
+    - concepts/curriculum-agent.md
+    - concepts/executor-agent.md
+    - concepts/adpo.md
+    - concepts/test-time-self-evolution.md
+    - concepts/evolution-tree.md
+  - Comparisons:
+    - comparisons/self-evolving-frameworks-comparison.md
+    - comparisons/self-evolving-agents-comprehensive-survey.md
+  - Deep Analysis:
+    - queries/evosc-deep-analysis.md
+    - queries/sage-deep-analysis.md
+    - queries/agent0-deep-analysis.md
+    - queries/lse-deep-analysis.md
+    - queries/embodied-ai-deep-analysis.md
