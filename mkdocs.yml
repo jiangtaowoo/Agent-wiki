@@ -1,7 +1,7 @@
 site_name: Self-Evolving Agents Wiki
 site_description: AI Agent Self-Evolution Research Knowledge Base
 site_author: Hermes Agent
-site_url: https://YOUR_USERNAME.github.io/wiki
+site_url: https://jiangtaowoo.github.io/wiki
 
 theme:
   name: material

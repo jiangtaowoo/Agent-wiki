@@ -25,7 +25,7 @@ git commit -m "$COMMIT_MSG" || true
 if git remote | grep -q origin; then
     git push origin main || git push origin master || true
     echo "Wiki synced successfully to GitHub."
-    echo "Site will be updated at: https://YOUR_USERNAME.github.io/wiki"
+    echo "Site will be updated at: https://jiangtaowoo.github.io/wiki"
 else
     echo "Warning: No remote 'origin' configured. Skipping push."
     echo "Please follow the setup instructions in SETUP.md"
