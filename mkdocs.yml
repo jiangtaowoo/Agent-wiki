@@ -1,7 +1,8 @@
 site_name: Self-Evolving Agents Wiki
 site_description: AI Agent Self-Evolution Research Knowledge Base
 site_author: Hermes Agent
-site_url: https://jiangtaowoo.github.io/wiki
+site_url: https://jiangtaowoo.github.io/Agent-wiki
+docs_dir: .
 
 theme:
   name: material
@@ -49,33 +50,6 @@ markdown_extensions:
       alternate_style: true
   - admonition
 
-# Chinese (中文) Navigation
-  - 中文首页: zh/index.md
-  - 核心框架 (Entities):
-    - EvoSC: zh/entities/evosc-framework.md
-    - SAGE: zh/entities/sage-framework.md
-    - Agent0: zh/entities/agent0-framework.md
-    - LSE: zh/entities/lse-framework.md
-    - 具身智能综述: zh/entities/self-evolving-embodied-ai-survey.md
-  - 核心概念 (Concepts):
-    - 自进化智能体: zh/concepts/self-evolving-agent.md
-    - 对比式经验提取: zh/concepts/contrastive-experience-extraction.md
-    - 参数化巩固: zh/concepts/parametric-consolidation.md
-    - 课程智能体: zh/concepts/curriculum-agent.md
-    - 执行智能体: zh/concepts/executor-agent.md
-    - ADPO: zh/concepts/adpo.md
-    - 测试时自进化: zh/concepts/test-time-self-evolution.md
-    - 进化树: zh/concepts/evolution-tree.md
-  - 对比分析 (Comparisons):
-    - 框架对比速览: zh/comparisons/self-evolving-frameworks-comparison.md
-    - 综合深度综述: zh/comparisons/self-evolving-agents-comprehensive-survey.md
-  - 深度分析 (Queries):
-    - EvoSC分析: zh/queries/evosc-deep-analysis.md
-    - SAGE分析: zh/queries/sage-deep-analysis.md
-    - Agent0分析: zh/queries/agent0-deep-analysis.md
-    - LSE分析: zh/queries/lse-deep-analysis.md
-    - 具身智能分析: zh/queries/embodied-ai-deep-analysis.md
-
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -86,26 +60,51 @@ nav:
   - Schema: SCHEMA.md
   - Log: log.md
   - Entities:
-    - entities/evosc-framework.md
-    - entities/sage-framework.md
-    - entities/agent0-framework.md
-    - entities/lse-framework.md
-    - entities/self-evolving-embodied-ai-survey.md
+    - EvoSC: entities/evosc-framework.md
+    - SAGE: entities/sage-framework.md
+    - Agent0: entities/agent0-framework.md
+    - LSE: entities/lse-framework.md
+    - Embodied AI: entities/self-evolving-embodied-ai-survey.md
   - Concepts:
-    - concepts/self-evolving-agent.md
-    - concepts/contrastive-experience-extraction.md
-    - concepts/parametric-consolidation.md
-    - concepts/curriculum-agent.md
-    - concepts/executor-agent.md
-    - concepts/adpo.md
-    - concepts/test-time-self-evolution.md
-    - concepts/evolution-tree.md
+    - Self-Evolving Agent: concepts/self-evolving-agent.md
+    - Contrastive Extraction: concepts/contrastive-experience-extraction.md
+    - Parametric Consolidation: concepts/parametric-consolidation.md
+    - Curriculum Agent: concepts/curriculum-agent.md
+    - Executor Agent: concepts/executor-agent.md
+    - ADPO: concepts/adpo.md
+    - Test-Time Self-Evolution: concepts/test-time-self-evolution.md
+    - Evolution Tree: concepts/evolution-tree.md
   - Comparisons:
-    - comparisons/self-evolving-frameworks-comparison.md
-    - comparisons/self-evolving-agents-comprehensive-survey.md
+    - Frameworks Comparison: comparisons/self-evolving-frameworks-comparison.md
+    - Comprehensive Survey: comparisons/self-evolving-agents-comprehensive-survey.md
   - Deep Analysis:
-    - queries/evosc-deep-analysis.md
-    - queries/sage-deep-analysis.md
-    - queries/agent0-deep-analysis.md
-    - queries/lse-deep-analysis.md
-    - queries/embodied-ai-deep-analysis.md
+    - EvoSC Analysis: queries/evosc-deep-analysis.md
+    - SAGE Analysis: queries/sage-deep-analysis.md
+    - Agent0 Analysis: queries/agent0-deep-analysis.md
+    - LSE Analysis: queries/lse-deep-analysis.md
+    - Embodied AI Analysis: queries/embodied-ai-deep-analysis.md
+  - 中文首页: zh/index.md
+  - 核心框架:
+    - EvoSC: zh/entities/evosc-framework.md
+    - SAGE: zh/entities/sage-framework.md
+    - Agent0: zh/entities/agent0-framework.md
+    - LSE: zh/entities/lse-framework.md
+    - 具身智能综述: zh/entities/self-evolving-embodied-ai-survey.md
+  - 核心概念:
+    - 自进化智能体: zh/concepts/self-evolving-agent.md
+    - 对比式经验提取: zh/concepts/contrastive-experience-extraction.md
+    - 参数化巩固: zh/concepts/parametric-consolidation.md
+    - 课程智能体: zh/concepts/curriculum-agent.md
+    - 执行智能体: zh/concepts/executor-agent.md
+    - ADPO: zh/concepts/adpo.md
+    - 测试时自进化: zh/concepts/test-time-self-evolution.md
+    - 进化树: zh/concepts/evolution-tree.md
+  - 对比分析:
+    - 框架对比速览: zh/comparisons/self-evolving-frameworks-comparison.md
+    - 综合深度综述: zh/comparisons/self-evolving-agents-comprehensive-survey.md
+  - 深度分析:
+    - EvoSC分析: zh/queries/evosc-deep-analysis.md
+    - SAGE分析: zh/queries/sage-deep-analysis.md
+    - Agent0分析: zh/queries/agent0-deep-analysis.md
+    - LSE分析: zh/queries/lse-deep-analysis.md
+    - 具身智能分析: zh/queries/embodied-ai-deep-analysis.md

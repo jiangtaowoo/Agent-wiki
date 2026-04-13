@@ -48,3 +48,10 @@
 ## [2026-04-13] create | Comprehensive comparison survey
 - Created comparisons/self-evolving-agents-comprehensive-survey.md
 - Content: 9-section comprehensive comparison covering horizontal/vertical analysis, decision tree, trend prediction, engineering advice
+
+## [2026-04-13] sync | Complete Chinese translations to zh/ directory
+- Copied full Chinese queries from root/queries/ to zh/queries/
+- Copied full Chinese comprehensive survey from root/comparisons/ to zh/comparisons/
+- Verified zh/entities/ and zh/concepts/ already complete
+- Created zh/SCHEMA.md and zh/log.md for full bilingual structure
+- Ensured zh/ directory is the authoritative Chinese location
