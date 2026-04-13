@@ -49,6 +49,33 @@ markdown_extensions:
       alternate_style: true
   - admonition
 
+# Chinese (中文) Navigation
+  - 中文首页: zh/index.md
+  - 核心框架 (Entities):
+    - EvoSC: zh/entities/evosc-framework.md
+    - SAGE: zh/entities/sage-framework.md
+    - Agent0: zh/entities/agent0-framework.md
+    - LSE: zh/entities/lse-framework.md
+    - 具身智能综述: zh/entities/self-evolving-embodied-ai-survey.md
+  - 核心概念 (Concepts):
+    - 自进化智能体: zh/concepts/self-evolving-agent.md
+    - 对比式经验提取: zh/concepts/contrastive-experience-extraction.md
+    - 参数化巩固: zh/concepts/parametric-consolidation.md
+    - 课程智能体: zh/concepts/curriculum-agent.md
+    - 执行智能体: zh/concepts/executor-agent.md
+    - ADPO: zh/concepts/adpo.md
+    - 测试时自进化: zh/concepts/test-time-self-evolution.md
+    - 进化树: zh/concepts/evolution-tree.md
+  - 对比分析 (Comparisons):
+    - 框架对比速览: zh/comparisons/self-evolving-frameworks-comparison.md
+    - 综合深度综述: zh/comparisons/self-evolving-agents-comprehensive-survey.md
+  - 深度分析 (Queries):
+    - EvoSC分析: zh/queries/evosc-deep-analysis.md
+    - SAGE分析: zh/queries/sage-deep-analysis.md
+    - Agent0分析: zh/queries/agent0-deep-analysis.md
+    - LSE分析: zh/queries/lse-deep-analysis.md
+    - 具身智能分析: zh/queries/embodied-ai-deep-analysis.md
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
