@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-13 | Total pages: 20
+> Last updated: 2026-04-15 | Total pages: 25
 
 ## Entities
 
@@ -11,6 +11,11 @@
 - [[agent0-framework]] — Zero-data self-evolution with curriculum-executor co-evolution and tools.
 - [[lse-framework]] — RL-trained test-time prompt evolution with tree search.
 - [[self-evolving-embodied-ai-survey]] — Tsinghua survey defining the 5-dimensional embodied AI evolution paradigm.
+- [[mem2evolve-framework]] — Co-evolutionary capability expansion and experience distillation via dual memory.
+- [[searl-framework]] — Joint optimization of policy and tool graph memory for resource-constrained self-evolving agents.
+- [[se-search-framework]] — Self-evolving search agent with purified memory and dense step-level rewards.
+- [[live-evo-framework]] — Online evolution of agentic memory from continuous feedback streams.
+- [[tool-r0-framework]] — Zero-data self-play RL for training general-purpose tool-calling agents.
 
 ## Concepts
 

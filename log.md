@@ -55,3 +55,23 @@
 - Verified zh/entities/ and zh/concepts/ already complete
 - Created zh/SCHEMA.md and zh/log.md for full bilingual structure
 - Ensured zh/ directory is the authoritative Chinese location
+
+## [2026-04-15] ingest | 5 new arXiv papers on agent self-evolution
+- Sources ingested:
+  - raw/articles/arxiv-2604.10923-mem2evolve.md (arXiv:2604.10923 — Mem²Evolve)
+  - raw/articles/arxiv-2604.07791-searl.md (arXiv:2604.07791 — SEARL)
+  - raw/articles/arxiv-2603.03293-se-search.md (arXiv:2603.03293 — SE-Search)
+  - raw/articles/arxiv-2602.02369-live-evo.md (arXiv:2602.02369 — Live-Evo)
+  - raw/articles/arxiv-2602.21320-tool-r0.md (arXiv:2602.21320 — Tool-R0)
+
+## [2026-04-15] create | Entity pages for 5 new frameworks
+- entities/mem2evolve-framework.md
+- entities/searl-framework.md
+- entities/se-search-framework.md
+- entities/live-evo-framework.md
+- entities/tool-r0-framework.md
+
+## [2026-04-15] update | Index and navigation
+- Updated index.md with 5 new entity pages (total pages: 25)
+- Bumped last-updated date to 2026-04-15
+- Appended all actions to log.md
